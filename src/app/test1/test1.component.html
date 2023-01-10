@@ -1,3 +1,7 @@
-<p class="bg-success py-2 text-light" *ngIf="vali">
+<p
+  class="py-2 px-2 fs-3 text-success"
+  [ngStyle]="{ 'background-color': '#D4EDDA' }"
+  *ngIf="vali"
+>
   Registro Exitoso: {{ datos | json }}
 </p>
